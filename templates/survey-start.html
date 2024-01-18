@@ -1,0 +1,17 @@
+<!-- Child of base.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Survey - {{survey.title}}{% endblock %}
+
+{% block header %}
+    <h1>{{survey.title}}</h1>
+{% endblock %}
+
+
+{% block content %}
+<p>Instructions: {{survey.instructions}}</p>
+<form action="/begin" method="POST">
+  <button>Start!</button>
+</form>
+{% endblock %}

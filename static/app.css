@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: rgba(139, 133, 137, 1);
+    color: rgba(255, 255, 240, 1);
+    align-items: center;
+}
+
+header {
+    background-color: rgba(70, 130, 180, 1); /* Example background color for the header */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: white; /* Text color for the header */
+}
+main {
+    flex: 1; /* Allow the main content to take up the remaining space */
+}
+
+h1 {
+    font-size: 6rem;    
+}
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 3rem;
+}
+
+footer {
+    background-color: rgba(70, 130, 180, 1); /* Example background color for the footer */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Text color for the footer */
+    margin-top: auto; /* Push the footer to the bottom */
+    width: 100%;
+}
+
+/* Style for text input and buttons */
+input,
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid rgba(70, 130, 180, 1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for input and buttons */
+input:hover,
+button:hover {
+    opacity: 0.8;
+}
+
+/* Style for button */
+button {
+    background-color: rgba(70, 130, 180, 1);
+    color: white;
+    border: none;
+}
